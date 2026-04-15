@@ -1,22 +1,20 @@
 class Vh < Formula
   desc "VibHost CLI — deploy web apps from terminal"
   homepage "https://github.com/Aventus-Group/vh-cli-releases"
-  version "0.1.2"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Aventus-Group/vh-cli-releases/releases/download/v0.1.2/vh-darwin-arm64.tar.gz"
-      sha256 "761cafaf10a932095bd6e426c04b68c1abac777432c25a57249a1d764a8ad110"
-
+      url "https://github.com/Aventus-Group/vh-cli-releases/releases/download/v0.1.3/vh-darwin-arm64.tar.gz"
+      sha256 "9090bdfa517f0eda0e1841a3f7b5bd342e83037202c880f6f07a480fd7b15e55"
       def install
         bin.install "vh-darwin-arm64" => "vh"
       end
     end
     on_intel do
-      url "https://github.com/Aventus-Group/vh-cli-releases/releases/download/v0.1.2/vh-darwin-amd64.tar.gz"
-      sha256 "107f62f0e105c81f568a94f536410e430db339f393ed6c2a8a096eadb1b3dcb5"
-
+      url "https://github.com/Aventus-Group/vh-cli-releases/releases/download/v0.1.3/vh-darwin-amd64.tar.gz"
+      sha256 "e7697aa3000330a116f71fb1a96ce3f727a1dae0ec5696e48b1a73ee01702966"
       def install
         bin.install "vh-darwin-amd64" => "vh"
       end
@@ -25,17 +23,15 @@ class Vh < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/Aventus-Group/vh-cli-releases/releases/download/v0.1.2/vh-linux-arm64.tar.gz"
-      sha256 "36ec757fd626947b6bdd4f711638adb87549fd64f87819039d10568052bec2d8"
-
+      url "https://github.com/Aventus-Group/vh-cli-releases/releases/download/v0.1.3/vh-linux-arm64.tar.gz"
+      sha256 "d45b02a5af616c685ff6067bf82e2c1a03260cf5a799b7cbb3715c5f8f0a00d1"
       def install
         bin.install "vh-linux-arm64" => "vh"
       end
     end
     on_intel do
-      url "https://github.com/Aventus-Group/vh-cli-releases/releases/download/v0.1.2/vh-linux-amd64.tar.gz"
-      sha256 "8163f77d495aab0b7ae6fe67bb9961fcf0e11cec105377b93039982dcfb8e44e"
-
+      url "https://github.com/Aventus-Group/vh-cli-releases/releases/download/v0.1.3/vh-linux-amd64.tar.gz"
+      sha256 "837ae1b0b4e01bbf3d899b97c9745f5d6d7ec044b04b0e24732e17a43dd33f29"
       def install
         bin.install "vh-linux-amd64" => "vh"
       end
