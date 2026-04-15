@@ -1,19 +1,21 @@
 # Aventus-Group Homebrew Tap
 
-## Установка VibHost CLI
+Homebrew formulae for [VibHost](https://vibhost.com) tools.
+
+## Install VibHost CLI
 
 ```bash
 brew tap Aventus-Group/tap
 brew install vh
 ```
 
-## Обновление
+## Upgrade
 
 ```bash
 brew upgrade vh
 ```
 
-## Удаление
+## Uninstall
 
 ```bash
 brew uninstall vh
